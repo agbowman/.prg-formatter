@@ -1,8 +1,8 @@
 {
   "name": "prg",
-  "displayName": "prg-formatter",
-  "description": "key word fomatter for .prg files",
-  "version": "0.0.1",
+  "displayName": "vscode prg-formatter",
+  "description": "vscode key word fomatter for .prg files",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.83.0"
   },

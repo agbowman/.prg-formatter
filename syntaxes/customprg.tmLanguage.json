@@ -7,13 +7,22 @@
 		},
 		{
 			"include": "#strings"
+		},
+		{
+			"include": "#comments"
+		},
+		{
+			"include": "#numbers"
+		},
+		{
+			"include": "#variables"
 		}
 	],
 	"repository": {
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.customprg",
-				"match": "\\b(with|join|outerjoin|if|while|for|return)\\b"
+				"match": "\\b(drop|create|prompt|with|free|record|set|if|validate|textlen|trim|else|call|select|from|where|order|head|detail|go|declare|execute|end)\\b"
 			}]
 		},
 		"strings": {
@@ -26,6 +35,18 @@
 					"match": "\\\\."
 				}
 			]
+		},
+		"comments": {
+			"name": "comment.line.customprg",
+			"match": "/\\*.*?\\*/"
+		},
+		"numbers": {
+			"name": "constant.numeric.customprg",
+			"match": "\\b\\d+(\\.\\d+)?\\b"
+		},
+		"variables": {
+			"name": "variable.name.customprg",
+			"match": "\\b([a-zA-Z_][a-zA-Z0-9_]*->|[a-zA-Z_][a-zA-Z0-9_]*[$])"
 		}
 	},
 	"scopeName": "source.prg"

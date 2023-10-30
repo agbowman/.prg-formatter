@@ -1,10 +1,14 @@
 # .prg Language README
 
-Welcome to the official extension for the `.prg` language! This extension aims to make your experience with the `.prg` language smooth, efficient, and delightful. Learn more about the features and capabilities of this extension here: https://github.com/agbowman/.prg-formatter
+Welcome to the vscode extension for the `.prg` language! This extension aims to make your experience with the `.prg` language smooth, efficient, and delightful. Learn more about the features and capabilities of this extension here: https://github.com/agbowman/.prg-formatter. More quality of life improvements are on the way.
+
+## HOW TO USE
+
+Download folder from https://github.com/agbowman/.prg-formatter to your desired location on your computer. Open a project containing .prg file. Go to extensions in vscode -> click on the three dots -> install from VSIX -> select the .vsix file from the folder you downloaded. Reload vscode. Open .prg file. If needed: Right click on the file -> Format Document.
 
 ## Features
 
-The `.prg` language extension offers several powerful features to aid in your coding endeavors:
+The `.prg` language extension offers several visual aids to enhance your experience with the `.prg` language.
 
 ## Requirements
 
