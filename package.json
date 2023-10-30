@@ -1,0 +1,30 @@
+{
+  "name": "prg",
+  "displayName": "prg-formatter",
+  "description": "key word fomatter for .prg files",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.83.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "customprg",
+      "aliases": ["Custom PRG", "customprg", "PRG"],
+      "extensions": [".prg"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "customprg",
+      "scopeName": "source.prg",
+      "path": "./syntaxes/customprg.tmLanguage.json"
+    }]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agbowman/.prg-formatter.git"
+  }
+  
+}
