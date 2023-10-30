@@ -16,6 +16,13 @@
       "extensions": [".prg"],
       "configuration": "./language-configuration.json"
     }],
+    "keybindings": [
+      {
+          "command": "editor.action.commentLine",
+          "key": "ctrl+;",
+          "when": "editorTextFocus && !editorReadonly && editorLangId == 'customprg'"
+      }
+  ],
     "grammars": [{
       "language": "customprg",
       "scopeName": "source.prg",

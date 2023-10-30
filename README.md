@@ -6,6 +6,23 @@ Welcome to the vscode extension for the `.prg` language! This extension aims to 
 
 Download folder from https://github.com/agbowman/.prg-formatter to your desired location on your computer. Open a project containing .prg file. Go to extensions in vscode -> click on the three dots -> install from VSIX -> select the .vsix file from the folder you downloaded. Reload vscode. Open .prg file. If needed: Right click on the file -> Format Document.
 
+## TO ADD MORE YOURSELF
+
+to create your own extension with yo code:
+
+npm install -g yo generator-code
+yo code
+Select New Language Support
+Enter prg
+
+or to update the the current language in this extension:
+
+npm install vsce
+add to customprg.tmLanguage.json or language-configuration.json
+vsce package
+new .vsix file will be created in the folder
+install the .vsix file in vscode
+
 ## Features
 
 The `.prg` language extension offers several visual aids to enhance your experience with the `.prg` language.

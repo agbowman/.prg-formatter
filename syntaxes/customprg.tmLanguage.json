@@ -37,8 +37,17 @@
 			]
 		},
 		"comments": {
-			"name": "comment.line.customprg",
-			"match": "/\\*.*?\\*/"
+			"patterns": [
+				{
+					"name": "comment.line.semicolon.customprg",
+					"match": ";.*$"
+				},
+				{
+					"name": "comment.block.customprg",
+					"begin": "/\\*",
+					"end": "\\*/"
+				}
+			]
 		},
 		"numbers": {
 			"name": "constant.numeric.customprg",
