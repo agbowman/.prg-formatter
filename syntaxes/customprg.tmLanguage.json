@@ -22,7 +22,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.customprg",
-				"match": "\\b(drop|create|prompt|with|free|record|set|if|validate|textlen|trim|else|call|select|from|where|order|head|detail|go|declare|execute|end)\\b"
+				"match": "\\b(drop|create|prompt|with|free|record|set|if|endif|plan|orjoin|join|and|or|in|between|validate|textlen|trim|else|call|select|from|where|order|for|endfor|head|head report|foot|foot report|detail|go|declare|execute|maxrec|format|separate|go|to|end)\\b"
 			}]
 		},
 		"strings": {
