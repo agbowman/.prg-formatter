@@ -16,6 +16,9 @@
 		},
 		{
 			"include": "#variables"
+		},
+		{
+			"include": "#aggregate-functions"
 		}
 	],
 	"repository": {
@@ -49,9 +52,14 @@
 				}
 			]
 		},
+	
 		"numbers": {
 			"name": "constant.numeric.customprg",
 			"match": "\\b\\d+(\\.\\d+)?\\b"
+		},
+		"aggregate-functions":{
+			"name": "storage.type.function.aggregate.customprg",
+			"match": "(?i)\\b(sum|avg|count|min|max|stdev|variance)\\b"
 		},
 		"variables": {
 			"name": "variable.name.customprg",
